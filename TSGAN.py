@@ -17,7 +17,7 @@ class TSGAN():
     def __init__(self, hidden_dims, num_layers, iterations, batch_size, module_name):
         """
         This is the timeseries GAN class that provides an interface to create, train, save and
-        inference from a model. Models are saved and accounted for in the `model
+        inference from a model. Models are saved in the self.model_storage directory
         """
 
         self.model_storage = "/directory/to/model/output/"
